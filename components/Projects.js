@@ -1,6 +1,12 @@
+import styles from '../styles/Layout.module.css'
+
 const Projects = () => {
   return (
-    <div>Will return projects</div>
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <h1>This will show my projects</h1>
+      </main>
+    </div>
   )
 }
 

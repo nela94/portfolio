@@ -1,13 +1,13 @@
 import styles from '../styles/Layout.module.css'
 
-const Resume = () => {
+const FirstSection = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>This  will be my resume</h1>
+        <h1>Hola! My name is Manuela Sanchez and I am a Junior Software Engineer!</h1>
       </main>
     </div>
   )
 }
 
-export default Resume
+export default FirstSection
