@@ -9,7 +9,7 @@ export default function Home() {
         <link rel='icon' href='https://static1.bigstockphoto.com/5/5/3/large1500/355923236.jpg' />
         <meta name="keywords" content="web developer, programming" />
       </Head>
-      <h1>Hola! My name is Manuela Sanchez and I am a Junior Sostware Engineer!</h1>
+      <h1>Hola! My name is Manuela Sanchez and I am a Junior Software Engineer!</h1>
     </div>
   )
 }
