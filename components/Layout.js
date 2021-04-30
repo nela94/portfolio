@@ -1,15 +1,15 @@
-import styles from '../styles/Layout.module.css'
-
 import FirstSection from './FirstSection.js'
 import Aboutme from './Aboutme.js'
 import Projects from './Projects.js'
 import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
 
+import styles from '../styles/Layout.module.css'
+
 const Layout = ({children}) => {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
+    <div>
+      <main>
         {children}
         <section>
           <FirstSection></FirstSection>
