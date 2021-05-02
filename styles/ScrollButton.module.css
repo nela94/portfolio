@@ -1,18 +1,15 @@
-.containingitall {
-  box-sizing: border-box;
-}
 .circlecontainer {
   height: 120px;
   width: 120px;
   margin: 50px auto 0;
-  position: absolute;
+  position: relative;
 }
 .circle {
-  /* background-color: #fff; */
+  background-color: #373737;
   height: 120px;
   width: 120px;
   display: block;
-  border: 5px solid #00baff;
+  border: 5px solid #f1f1f1;
   border-radius: 100px;
   position: absolute;
   bottom: 0;
@@ -34,10 +31,10 @@
 }
 .fa {
   font-size: 42px;
-  color: #00baff;
+  color: #f1f1f1;
   bottom: 27px;
   position: absolute;
-  left: 50%;
+  left: 20%;
   margin-left: -18px;
   animation-name: arrow;
   animation-duration: 1s;

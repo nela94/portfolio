@@ -1,6 +1,5 @@
 import ScrollButton from './ScrollButton.js'
 import styles from '../styles/Layout.module.css'
-import stylestwo from '../styles/ScrollButton.module.css'
 
 const FirstSection = () => {
   return (
@@ -9,7 +8,7 @@ const FirstSection = () => {
         <h1>Hola! My name is Manuela Sanchez</h1>
         <p>and I am a Junior Software Engineer</p>
       </div>
-      <div className={stylestwo.containingitall}>
+      <div style={{paddingTop:'378px'}}>
         <p>click here and find out who I is</p>
         <ScrollButton></ScrollButton>
       </div>
