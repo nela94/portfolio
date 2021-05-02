@@ -3,14 +3,14 @@ import Aboutme from './Aboutme.js'
 import Projects from './Projects.js'
 import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
+import NavBar from './NavBar.js'
 
 import styles from '../styles/Layout.module.css'
 
 const Layout = ({children}) => {
   return (
     <div>
-      <main>
-        {children}
+      <NavBar/>
         <section>
           <FirstSection></FirstSection>
         </section>
@@ -26,7 +26,6 @@ const Layout = ({children}) => {
         <section>
           <ContactMe></ContactMe>
         </section>
-      </main>
     </div>
   )
 }
