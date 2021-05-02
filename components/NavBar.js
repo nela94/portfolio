@@ -1,25 +1,50 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
+import { Link, animateScroll as scroll } from "react-scroll";
 import styles from '../styles/NavBar.module.css'
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <ul className={styles.uldesign}>
         <li className={styles.lidesign}>
-          <Link href='/'>Home</Link>
+          <Link activeClass="active"
+            to="section1"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Home</Link>
         </li>
         <li className={styles.lidesign}>
-          <Link href='/'>About Me</Link>
+          <Link activeClass="active"
+            to="section2"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>About Me</Link>
         </li>
         <li className={styles.lidesign}>
-          <Link href='/'>Projects</Link>
+          <Link activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>Projects</Link>
         </li>
         <li className={styles.lidesign}>
-          <Link href='/'>Resume</Link>
+          <Link activeClass="active"
+            to="section4"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>Resume</Link>
         </li>
         <li className={styles.lidesign}>
-          <Link href='/'>Contact Me</Link>
+          <Link activeClass="active"
+              to="section5"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>Contact Me</Link>
         </li>
       </ul>
     </nav>

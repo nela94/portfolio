@@ -1,16 +1,23 @@
+.navbar{
+  position:fixed;
+  top:0;
+  z-index:2;
+  background-color: #333;
+  width: 100%;
+}
+
 .uldesign {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 .lidesign {
   float: left;
 }
 
-.lidesign a {
+.lidesign{
   display: block;
   color: white;
   text-align: center;
@@ -19,6 +26,10 @@
 }
 
 /* Change the link color to #111 (black) on hover */
-.lidesign a:hover {
+.lidesign:hover {
   background-color: #111;
+}
+
+.lidesign > .active {
+    border-bottom: 1px solid white;
 }

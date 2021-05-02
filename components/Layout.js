@@ -5,25 +5,25 @@ import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
 import NavBar from './NavBar.js'
 
+
 import styles from '../styles/Layout.module.css'
 
 const Layout = ({children}) => {
   return (
     <div>
-      <NavBar/>
-        <section>
+        <section id="section1">
           <FirstSection></FirstSection>
         </section>
-        <section>
+        <section id="section2">
           <Aboutme></Aboutme>
         </section>
-        <section>
+        <section id="section3">
           <Projects></Projects>
         </section>
-        <section>
+        <section id="section4">
           <Resume></Resume>
         </section>
-        <section>
+        <section id="section5">
           <ContactMe></ContactMe>
         </section>
     </div>
