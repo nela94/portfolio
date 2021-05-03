@@ -11,7 +11,7 @@ const NavBar = () => {
             to="section1"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-90}
             duration={500}>Home</Link>
         </li>
         <li className={styles.lidesign}>
@@ -29,14 +29,6 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}>Projects</Link>
-        </li>
-        <li className={styles.lidesign}>
-          <Link activeClass="active"
-            to="section4"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}>Resume</Link>
         </li>
         <li className={styles.lidesign}>
           <Link activeClass="active"

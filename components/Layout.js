@@ -1,7 +1,6 @@
 import FirstSection from './FirstSection.js'
 import Aboutme from './Aboutme.js'
 import Projects from './Projects.js'
-import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
 import NavBar from './NavBar.js'
 
@@ -19,9 +18,6 @@ const Layout = ({children}) => {
         </section>
         <section id="section3">
           <Projects></Projects>
-        </section>
-        <section id="section4">
-          <Resume></Resume>
         </section>
         <section id="section5">
           <ContactMe></ContactMe>

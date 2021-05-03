@@ -1,10 +1,18 @@
 import style from '../styles/ProjectCard.module.css'
+import { motion } from 'framer-motion';
 
 const ProjectCard = () => {
   return (
     <div className={style.container}>
         <main className={style.grid}>
-        <article classname={style.articleName}>
+        <motion.article classname={style.articleName} whileHover={{
+              position: 'relative',
+              background: 'white',
+              scale: 1.2,
+              transition: {
+                duration: .2
+              }
+            }}>
           <img src="/Petme.png" alt="Sample photo"/>
           <div className={style.text}>
             <h3>PetMe</h3>
@@ -13,8 +21,15 @@ const ProjectCard = () => {
             <a className={style.links} href="https://www.youtube.com/watch?v=FwgQTM4SK8o&feature=youtu.be">Demo      </a>
             <a className={style.links} href="https://github.com/nela94/PetMe">Github</a>
           </div>
-        </article>
-        <article classname={style.articleName}>
+        </motion.article>
+        <motion.article classname={style.articleName} whileHover={{
+              position: 'relative',
+              background: 'white',
+              scale: 1.2,
+              transition: {
+                duration: .2
+              }
+            }}>
           <img src="/morningmuffins.png" alt="Sample photo"/>
           <div className={style.text}>
             <h3>Muffin Mornings</h3>
@@ -24,8 +39,15 @@ const ProjectCard = () => {
             <a className={style.links} href="https://www.youtube.com/watch?v=5ZUTU0HLilU&feature=youtu.be">Demo     </a>
             <a className={style.links} href="https://github.com/KrystleJustine/MuffinMornings/tree/manuela-2">Github</a>
           </div>
-        </article>
-        <article classname={style.articleName}>
+        </motion.article>
+        <motion.article classname={style.articleName} whileHover={{
+              position: 'relative',
+              background: 'white',
+              scale: 1.2,
+              transition: {
+                duration: .2
+              }
+            }}>
           <img src="/fridakhalo.png" alt="Sample photo"/>
           <div className={style.text}>
             <h3>Project0(Frida Kahlo)</h3>
@@ -35,15 +57,22 @@ const ProjectCard = () => {
             <a className={style.links} href="https://nela94.github.io/Project0/">Website      </a>
             <a className={style.links} href="https://github.com/nela94/Project0">Github</a>
           </div>
-        </article>
-        <article classname={style.articleName}>
+        </motion.article>
+        <motion.article classname={style.articleName} whileHover={{
+              position: 'relative',
+              background: 'white',
+              scale: 1.2,
+              transition: {
+                duration: .2
+              }
+            }}>
           <img src="/realestateweb.png" alt="Sample photo"/>
           <div className={style.text}>
             <h3>Big Apple Luxury Living</h3>
             <p>Real Estate website for realtor Shelby Coleman designed to give information about NYC living and promote her business.</p>
             <a className={style.links} href="https://www.youtube.com/watch?v=FwgQTM4SK8o&feature=youtu.be">Demo      </a>
           </div>
-        </article>
+        </motion.article>
       </main>
     </div>
   )
