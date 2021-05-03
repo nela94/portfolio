@@ -19,6 +19,6 @@
     "react-scroll": "^1.8.2"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^3.2.1"
+    "@netlify/plugin-nextjs": "^3.0.3"
   }
 }
