@@ -10,6 +10,7 @@ import styles from '../styles/Layout.module.css'
 const Layout = ({children}) => {
   return (
     <div>
+      {children}
         <section id="section1">
           <FirstSection></FirstSection>
         </section>
