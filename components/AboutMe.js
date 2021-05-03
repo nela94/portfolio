@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from '../styles/AboutMe.module.css'
 
 
-const Aboutme = () => {
+const AboutMe = () => {
   return (
       <div id="aboutmecontained" className={styles.container}>
         <div className={styles.main}>
@@ -26,4 +26,4 @@ const Aboutme = () => {
   )
 }
 
-export default Aboutme
+export default AboutMe

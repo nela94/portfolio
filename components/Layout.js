@@ -1,5 +1,5 @@
 import FirstSection from './FirstSection.js'
-import Aboutme from './Aboutme.js'
+import AboutMe from './AboutMe.js'
 import Projects from './Projects.js'
 import ContactMe from './ContactMe.js'
 import NavBar from './NavBar.js'
@@ -15,7 +15,7 @@ const Layout = ({children}) => {
           <FirstSection></FirstSection>
         </section>
         <section id="section2">
-          <Aboutme></Aboutme>
+          <AboutMe></AboutMe>
         </section>
         <section id="section3">
           <Projects></Projects>
