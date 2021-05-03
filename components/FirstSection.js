@@ -3,15 +3,10 @@ import NavBar from './NavBar.js'
 import styles from '../styles/Layout.module.css'
 
 const FirstSection = () => {
-
-  const handleOnClick = () => {
-    return alert("clicked")
-  }
-
   return (
     <div>
       <NavBar/>
-        <div onClick={handleOnClick} style={{backgroundColor: 'grey'}} className={styles.container}>
+        <div style={{backgroundColor: 'grey'}} className={styles.container}>
           <div className={`${styles.main} ${styles.bgText}`}>
             <h1>Hola! My name is Manuela Sanchez</h1>
             <p>and I am a Junior Software Engineer</p>

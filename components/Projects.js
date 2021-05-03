@@ -1,10 +1,12 @@
-import styles from '../styles/Layout.module.css'
+import styles from '../styles/Project.module.css'
+import ProjectCard from './ProjectCard.js'
 
 const Projects = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>This will show my projects</h1>
+        <h1>Check Out My Work</h1>
+        <ProjectCard></ProjectCard>
       </main>
     </div>
   )
